@@ -180,6 +180,9 @@
   .absolute {
     position: absolute;
   }
+  .z-10 {
+    z-index: 10;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -227,6 +230,9 @@
   }
   .w-30 {
     width: calc(var(--spacing) * 30);
+  }
+  .w-full {
+    width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
